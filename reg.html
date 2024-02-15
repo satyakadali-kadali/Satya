@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: rgb(143, 143, 169);
+    }
+
+form{
+    margin-left: 400px;
+    margin-right: 400px;
+   
+}
+.form{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+
+
+
+</style>
+<body>
+    
+   <div class="form">
+    <form>
+         <h1>Registration Form</h1>
+         <label for ="name"><B>NAME:</B></label><br><br>
+         <input type="text" name="name"  id="name" required placeholder="enter the name"><br><br>
+         <label for="email"><B>EMAIL:</B></label><br><br>
+         <input type="email" name="email"  id="email" required placeholder="Enter the email"><br><br>
+         <label for="password"><B>PASSWORD:</B></label><br><br>
+         <input type="password" name="password"  id="password" placeholder="Enter the password" required><br><br>
+         <label for="ph.no"><B>PHONENO:</B></label><br><br>
+         <input type="tel" name="ph.no"  id="ph.no" placeholder="Enter the phone number" required><br><br>
+         <label for="gender"><B>GENDER:</B></label><br><br>
+         <select id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+         </select><br><br>
+         <label for="lang"><B>LANGUAGE:</B></label><br><br>
+         <select id="lang">
+                <option value="Tamil">Tamil</option>
+                <option value="Telugu">Telugu</option>
+                <option value="English">English</option>
+         </select><br><br>
+         <label for="zipcode"><B>ZIPCODE:</B></label><br><br>
+         <input type="text" name="zipcode"  id="zipcode" required><br><br>
+         <label for="about"><B>COMMENTS</B></label><br><br>
+         <textarea id="about" rows="5" cols="30"></textarea><br><br>
+
+      <button>Submit</button>
+      <button type="reset">clear</button>
+
+    </form>
+</div>
+
+</body>
+</html>
